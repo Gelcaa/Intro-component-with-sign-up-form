@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <!-- bootstrap installiation -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- ICON -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- stylesheet -->
+  <link href = "style.css" rel="stylesheet"></href>
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+</head>
+<body>
+<main>
+  <div class="container">
+    <div class= "row justify-content-end">
+      <div class="col-6">
+      <button class="top_button"><b>Try it free 7 days</b> then $20/mo. thereafter</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6 left_text">
+  <div class = 'bold-text'>Learn to code by watching others</div>
+  <div class="paragraph">
+  See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+  but understanding how developers think is invaluable. 
+</div>
+</div>
+<!-- FORM -->
+  <div class="col-6 form">
+
+<form>
+  <input type="text" id="fname" name="firstname" placeholder="First Name">
+  <p id="fname_error"></p>
+  
+  <input type="text" id="lname" name="lastname" placeholder="Last Name">
+  <p id="lname_error"></p>
+  
+  <input type="text" id="emailaddress" name="emailadress" placeholder="Email Address">
+  <p id="email_error"></p>
+
+  <input type="password" id="password" name="password" placeholder="Password">
+  <p id="password_error"></p>
+
+  <input type="submit" id="submit" value="CLAIM YOUR FREE TRIAL">
+  <div class="terms-and-services">By clicking the button, you are agreeing to our<span> Terms and Services </span></div>
+</form>
+
+ 
+  </div>
+  </div>
+  </div>
+
+
+<script src="app.js"></script>
+  </main>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Angelica Ysabel Buan</a>.
+    </p>
+  </footer>
+</body>
+</html>
